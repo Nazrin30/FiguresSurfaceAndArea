@@ -23,8 +23,8 @@ class MainActivity : AppCompatActivity() {
         val openAtTopCylinder = OpenAtTopCylinder(radius = 2.0, height = 5.0)
         val closeAtTopCylinder = CloseAtTopCylinder(radius = 3.0, height = 4.0)
         val hollowCyclinder = HollowCyclinder(innerRadius = 2.0, outerRadius = 5.0, height = 7.0 )
-        val cone = Cone(height = 2.0, radius = 3.0)
-        val frustum = Frustum(height = 4.0, radiusOfTop = 2.0, radiusofBase = 10.0)
+        val cone = Cone(height = 3.0, radius = 2.0)
+        val frustum = Frustum(height = 14.0, radiusOfTop = 2.0, radiusofBase = 10.0)
 
         val listOfFigures = arrayListOf<Figure>(cube,
             cuboid,

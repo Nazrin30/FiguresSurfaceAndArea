@@ -18,7 +18,7 @@ import kotlin.math.sqrt
         return PI*radius*(radius+slantHeight)
     }
 
-    override fun volume(): Double {
-        return 1/3*(PI*radius.pow(2)*height)
-    }
+     override fun volume(): Double {
+         return (1.0 / 3.0) * (PI * radius.pow(2) * height)
+     }
 }

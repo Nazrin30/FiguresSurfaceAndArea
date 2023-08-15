@@ -12,7 +12,7 @@ class Frustum(val radiusofBase : Double, height:Double, val radiusOfTop : Double
     }
 
     override fun volume(): Double {
-       return 1/3*PI*height*(radiusofBase.pow(2)+ PI*radiusOfTop.pow(2)+radiusofBase*radiusOfTop)
+        return (1.0 / 3.0) * PI * height * (radiusofBase.pow(2) + PI * radiusOfTop.pow(2) + radiusofBase * radiusOfTop)
     }
 
     override fun curvedSurfaceArea(): Double {
