@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
             hollowCyclinder,
             cone,
             frustum)
+
         val figuresTotalArea = FiguresRepository.figuresTotalArea(listOfFigures)
         Log.e("figuresTotalArea", "${figuresTotalArea}")
 
